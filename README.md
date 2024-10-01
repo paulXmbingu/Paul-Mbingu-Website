@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![Paul Mbingu Portfolio Website Cover](https://res.cloudinary.com/excit3/image/upload/v1725569509/Paul%20Mbingu/Filecover_1_ff4aou.png)
+
+# Paul Mbingu Portfolio Website
+I am an elite product designer & engineer (UXUI​​​​​​​) helping businesses build innovative, user-centric, design-led software.
 
 ## Getting Started
 
-First, run the development server:
+### Setup
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Install and update [Node.js & Node Package Manager](https://nodejs.org/en) [LTS ONLY]
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Clone this repository to your local machine using: 
+   ```
+   git clone https://github.com/paulXmbingu/Paul-Mbingu-Website
+   ```
+   
+3. Install the required dependencies:
+   ```
+   npm i
+   ```
+   
+### Usage
+1. Start the development server:
+   ```
+   npm run dev -- --host
+   ```
+   
+2. Start the Storybook js server:
+   ```
+   npm run storybook
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Ctrl or Cmd click the links on the terminal to view the app or storybook in your browser eg. http://192.168.1.101:5173/ 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
+- **Home Page**: Engaging intro with a clear call-to-action.
+- **Project Display**: Visual project grid with detailed descriptions and case studies.
+- **Resume**: Available both online and as a downloadable PDF with skills, experience, and certifications.
+- **Tutorials**: Practical guides with code snippets and categories.
+- **Latest Blogs**: Organized posts with tags, featured articles, and comment functionality.
+- **Contact Form**: Simple form with social links and email for direct inquiries.
 
-## Learn More
+## Technologies
+- **Figma**: Design & Prototyping
+- **Next.js**: Frontend Framework
+- **CSS Modules**: Styling
+- **Strapi**: Headless CMS
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Product Engineering Team
+- Special Contributions: **Marion Ngayi & The Senjes Cuisine Team**
+- Web Design: **Paul Mbingu**
+- Frontend Engineering: **Paul Mbingu**
